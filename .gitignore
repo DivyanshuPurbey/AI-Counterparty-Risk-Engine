@@ -1,0 +1,24 @@
+# Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+
+# Data (regenerate with run_pipeline.py; keep repo light)
+data/processed/*.db
+data/processed/*.csv
+data/raw/*.csv
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
